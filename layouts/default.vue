@@ -1,13 +1,13 @@
 <template>
   <v-app>
-    <v-app-bar app flat absolute fixed height="180">
+    <v-app-bar app flat hide-on-scroll height="180">
       <div class="tw-grid tw-grid-cols-3 tw-w-full">
-        <nav class="tw-flex tw-gap-6 tw-items-center">
-          <nuxt-link to="/home">Home</nuxt-link>
+        <div class="navs tw-flex tw-gap-6 tw-items-center">
+          <nuxt-link to="/">Home</nuxt-link>
           <nuxt-link to="/about">About</nuxt-link>
           <nuxt-link to="/testimonials">Testimonials</nuxt-link>
           <nuxt-link to="/case-studies">Case Studies</nuxt-link>
-        </nav>
+        </div>
         <nuxt-link to="/" class="tw-justify-self-center tw-inline-block">
           <v-img
             height="120"
@@ -85,7 +85,7 @@ export default {
   padding: 30px 50px;
 }
 
-nav {
+.navs {
   a {
     @apply tw-text-gray-50 tw-font-medium tw-text-xl;
   }
