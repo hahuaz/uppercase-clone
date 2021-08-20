@@ -52,7 +52,9 @@ export default {
       themes: {
         dark: {
           // custom colors
-          'blue-dark': '#0b053d',
+          'blue-dark': '#0d0745',
+          'blue-dark-lighten': '#5e71eb',
+          'blue-aqua': '#4adedd',
 
           primary: colors.blue.darken3,
           accent: colors.grey.darken3,
