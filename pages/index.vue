@@ -1,5 +1,9 @@
 <template>
-  <div>hi from index</div>
+  <div class="tw-pt-64">
+    hi from index
+    <div class="tw-bg-green-200 tw-min-h-screen"></div>
+    <div class="tw-bg-red-200 tw-min-h-screen"></div>
+  </div>
 </template>
 
 <script>
