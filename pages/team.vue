@@ -58,7 +58,7 @@ Rreiciendis perferendis voluptatibus minus dolorum magni temporanim tempore vel 
                   tw-mx-auto
                 "
               >
-                <p class="tw-text-4xl tw-text-7xl tw-font-bold">Baris</p>
+                <p class="tw-text-4xl sm:tw-text-7xl tw-font-bold">Baris</p>
               </div>
               <p class="tw-font-semibold tw-text-3xl">Co-founder</p>
               <pre
@@ -87,7 +87,7 @@ Rreiciendis perferendis voluptatibus minus dolorum magni tempora officia neque p
                   tw-mx-auto
                 "
               >
-                <p class="tw-text-4xl tw-text-7xl tw-font-bold">Hannah</p>
+                <p class="tw-text-4xl sm:tw-text-7xl tw-font-bold">Hannah</p>
               </div>
               <p class="tw-font-semibold tw-text-3xl">Senior Account Manager</p>
               <pre
@@ -116,7 +116,7 @@ Lorem doloer sitea mete kastek salasan.
                   tw-mx-auto
                 "
               >
-                <p class="tw-text-4xl tw-text-7xl tw-font-bold">Deniz</p>
+                <p class="tw-text-4xl sm:tw-text-7xl tw-font-bold">Deniz</p>
               </div>
               <p class="tw-font-semibold tw-text-3xl">Senior Art Director</p>
               <pre
@@ -145,7 +145,7 @@ Rreiciendis perferendis voluptatibus minus dolorum magni tempora officia neque p
                   tw-mx-auto
                 "
               >
-                <p class="tw-text-4xl tw-text-7xl tw-font-bold">Funda</p>
+                <p class="tw-text-4xl sm:tw-text-7xl tw-font-bold">Funda</p>
               </div>
               <p class="tw-font-semibold tw-text-3xl">Senior Art Director</p>
               <pre
@@ -176,7 +176,7 @@ Rreiciendis perferendis voluptatibus minus dolorum magni temporanim tempore vel 
                   tw-mx-auto
                 "
               >
-                <p class="tw-text-4xl tw-text-7xl tw-font-bold">Norrin</p>
+                <p class="tw-text-4xl sm:tw-text-7xl tw-font-bold">Norrin</p>
               </div>
               <p class="tw-font-semibold tw-text-3xl">Senior DB Manager</p>
               <pre
@@ -207,7 +207,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quod eaque pr
                   tw-mx-auto
                 "
               >
-                <p class="tw-text-4xl tw-text-7xl tw-font-bold">Jake</p>
+                <p class="tw-text-4xl sm:tw-text-7xl tw-font-bold">Jake</p>
               </div>
               <p class="tw-font-semibold tw-text-3xl">Director of DB</p>
               <pre
@@ -236,7 +236,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quod eaque pr
                   tw-mx-auto
                 "
               >
-                <p class="tw-text-4xl tw-text-7xl tw-font-bold">Hasan</p>
+                <p class="tw-text-4xl sm:tw-text-7xl tw-font-bold">Hasan</p>
               </div>
               <p class="tw-font-semibold tw-text-3xl">Frontend Developer</p>
               <pre

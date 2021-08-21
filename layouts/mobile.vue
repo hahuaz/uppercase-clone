@@ -5,7 +5,7 @@
       fixed
       app
       width="100%"
-      class="tw-bg-blue-dark-lighten"
+      class="drawer tw-bg-blue-dark-lighten"
     >
       <div class="">
         <div class="tw-grid tw-grid-cols-3 tw-items-center tw-py-4">
@@ -113,7 +113,7 @@
         </v-list>
       </div>
     </v-navigation-drawer>
-    <v-app-bar app flat hide-on-scroll height="80">
+    <v-app-bar app flat hide-on-scroll height="80" class="appbar">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <nuxt-link to="/">
         <div>
@@ -165,7 +165,7 @@
 export default {
   data() {
     return {
-      drawer: true,
+      drawer: false,
       showSubAbout: false,
     }
   },
@@ -177,10 +177,9 @@ export default {
     // border: 1px solid red;
   }
 }
-.mobile {
-  .v-toolbar__content {
-    justify-content: space-between;
-  }
+.v-toolbar__content {
+  justify-content: space-between !important;
+  padding: 4px 16px !important;
 }
 </style>
 <style lang="scss" scoped>

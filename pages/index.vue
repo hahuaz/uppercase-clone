@@ -334,7 +334,13 @@ Scaling an e-commerce brand isn’t magic or luck, but there is no “one size f
 
 <script>
 export default {
-  layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
+  layout: (ctx) => {
+    return ctx.$device.isMobile ? 'mobile' : 'default'
+  },
+  mounted() {
+    console.log(this)
+    console.log(this.$device)
+  },
 }
 </script>
 

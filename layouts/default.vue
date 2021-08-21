@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app flat hide-on-scroll height="180">
       <div class="tw-grid tw-grid-cols-3 tw-w-full">
-        <div class="nav tw-flex tw-gap-6 tw-items-center">
+        <div class="nav tw-px-16 tw-flex tw-gap-6 tw-items-center">
           <nuxt-link to="/">Home</nuxt-link>
           <v-menu open-on-hover bottom offset-y>
             <template #activator="{ on, attrs }">
