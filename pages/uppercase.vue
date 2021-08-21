@@ -1,15 +1,21 @@
 <template>
   <div>
-    <div class="tw-py-56 tw-bg-blue-dark">
+    <div class="tw-py-32 sm:tw-py-56 tw-bg-blue-dark">
       <div class="tw-max-w-screen-xl tw-mx-auto">
         <div class="tw-container tw-mx-auto">
           <div class="tw-text-center tw-p-4 tw-space-y-12">
-            <p class="tw-text-4xl tw-text-blue-dark-lighten tw-font-bold">
+            <p
+              class="
+                tw-text-2xl
+                sm:tw-text-4xl
+                tw-text-blue-dark-lighten tw-font-bold
+              "
+            >
               WE’RE A PREMIUM E-COMMERCE AGENCY FOR GROWTH-STAGE BUSINESSES. OUR
               PRIMARY GOAL IS TO ACT AS A TRUE GROWTH PARTNER AND CATALYST FOR
               OUR CLIENTS.
             </p>
-            <p class="tw-text-3xl">
+            <p class="tw-text-xl sm:tw-text-3xl">
               Uppercase was founded by a group of ex-Facebookers who worked with
               Fortune 500 clients on the Ad Tech team. We learned the successful
               campaign strategies straight from the source, and we realized how
@@ -23,16 +29,28 @@
               into your marketing mix, and how your social campaign results can
               predict your future success.
             </p>
-            <p class="tw-text-4xl tw-text-blue-dark-lighten tw-font-bold">
+            <p
+              class="
+                tw-text-2xl
+                sm:tw-text-4xl
+                tw-text-blue-dark-lighten tw-font-bold
+              "
+            >
               WE’RE FIRST AND FOREMOST A DATA DRIVEN COMPANY.
             </p>
-            <p class="tw-text-3xl">
+            <p class="tw-text-xl sm:tw-text-3xl">
               Campaign data informs all of our marketing decisions. Our eyes are
               tuned to the fine differences between an average campaign and a
               gangbusters campaign, and we’re experts at recognizing the signs
               in your data to refine and optimize your campaigns to perfection.
             </p>
-            <p class="tw-text-4xl tw-text-blue-dark-lighten tw-font-bold">
+            <p
+              class="
+                tw-text-2xl
+                sm:tw-text-4xl
+                tw-text-blue-dark-lighten tw-font-bold
+              "
+            >
               WE CAN’T WAIT TO WORK WITH YOU! SCHEDULE A FREE CONSULTATION WITH
               OUR STRATEGISTS TO DETERMINE IF UPPERCASE IS THE RIGHT FIT FOR
               YOUR COMPANY’S NEEDS.
@@ -48,8 +66,10 @@
                   tw-text-xl
                   tw-border-2
                   tw-rounded-md
-                  tw-p-8
-                  tw-mt-12
+                  tw-p-4
+                  sm:tw-p-8
+                  tw-mt-6
+                  sm:tw-mt-12
                 "
               >
                 Contact Us</v-btn
@@ -63,7 +83,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
+}
 </script>
 
 <style lang="scss" scoped></style>

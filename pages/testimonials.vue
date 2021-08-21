@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="testimonials tw-py-56">
+    <div class="testimonials tw-py-32 sm:tw-py-56">
       <div class="tw-max-w-screen-xl tw-mx-auto">
         <div class="tw-container tw-mx-auto">
           <div class="tw-p-4 tw-space-y-36 tw-text-center">
-            <h1 class="tw-text-7xl">CLIENT FEEDBACK</h1>
-            <div class="tw-grid tw-grid-cols-2 tw-gap-32">
+            <h1 class="tw-text-4xl sm:tw-text-7xl">CLIENT FEEDBACK</h1>
+            <div class="tw-grid sm:tw-grid-cols-2 tw-gap-32">
               <div class="tw-space-y-8">
-                <blockquote class="tw-text-2xl">
+                <blockquote class="tw-text-lg sm:tw-text-2xl">
                   “The Uppercase team has such a clear, strategic approach to
                   growth that’s deeply analytical and data driven. They
                   continually educate my team on this ever-evolving industry,
@@ -16,7 +16,7 @@
                   I have never come across when working with a paid agency
                   before.”
                 </blockquote>
-                <p class="tw-text-4xl">— KATE HOFFMAN</p>
+                <p class="tw-text-2xl sm:tw-text-4xl">— KATE HOFFMAN</p>
                 <a href="/" class="tw-inline-block">
                   <v-img
                     width="250"
@@ -33,7 +33,7 @@
                   results to make ad strategy decisions that have helped scale
                   my clothing business 3x.”
                 </blockquote>
-                <p class="tw-text-4xl">— KENNY HAISFIELD</p>
+                <p class="tw-text-2xl sm:tw-text-4xl">— KENNY HAISFIELD</p>
                 <a href="/" class="tw-inline-block">
                   <v-img
                     width="250"
@@ -50,7 +50,7 @@
                   ambitious family-owned businesses, and have only heard great
                   things.”
                 </blockquote>
-                <p class="tw-text-4xl">— JAKE MOR</p>
+                <p class="tw-text-2xl sm:tw-text-4xl">— JAKE MOR</p>
                 <a href="/" class="tw-inline-block">
                   <v-img
                     width="250"
@@ -69,7 +69,7 @@
                   provided highly-valuable expertise that makes partnering with
                   them a no brainer.”
                 </blockquote>
-                <p class="tw-text-4xl">— RACHEL SANDERS</p>
+                <p class="tw-text-2xl sm:tw-text-4xl">— RACHEL SANDERS</p>
                 <a href="/" class="tw-inline-block">
                   <v-img
                     width="250"
@@ -95,7 +95,8 @@
                   tw-text-xl
                   tw-border-2
                   tw-rounded-md
-                  tw-p-8
+                  tw-p-4
+                  sm:tw-p-8
                 "
               >
                 Contact Us</v-btn
@@ -109,12 +110,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
+}
 </script>
 
 <style lang="scss" scoped>
 .testimonials {
-  background: linear-gradient(-45deg, #0d0745, #071945, #1747bf, #5e71eb);
+  background: linear-gradient(90deg, #0d0745, #071945, #1747bf, #5e71eb);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }

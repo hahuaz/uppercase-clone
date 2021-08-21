@@ -1,13 +1,15 @@
 <template>
   <div>
-    <div class="testimonials tw-py-56">
+    <div class="testimonials tw-py-32 sm:tw-py-56">
       <div class="tw-max-w-screen-xl tw-mx-auto">
         <div class="tw-container tw-mx-auto">
           <div class="tw-p-4 tw-space-y-36 tw-text-center">
-            <h1 class="tw-text-7xl">CASE STUDIES</h1>
-            <div class="tw-grid tw-grid-cols-2">
+            <h1 class="tw-text-5xl sm:tw-text-7xl">CASE STUDIES</h1>
+            <div class="tw-grid sm:tw-grid-cols-2">
               <div class="tw-col-start-2 tw-text-right tw-space-y-8">
-                <h1 class="tw-text-7xl">UPPERCASE CRO CASE STUDY</h1>
+                <h1 class="tw-text-4xl sm:tw-text-7xl">
+                  UPPERCASE CRO CASE STUDY
+                </h1>
                 <h1 class="tw-text-3xl tw-font-bold">
                   Port x Polish achieves 259% increase in revenue in 3 months
                 </h1>
@@ -37,7 +39,8 @@
                   tw-text-xl
                   tw-border-2
                   tw-rounded-md
-                  tw-p-8
+                  tw-p-4
+                  sm:tw-p-8
                 "
               >
                 Contact Us</v-btn
@@ -51,7 +54,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
+}
 </script>
 
 <style lang="scss" scoped>

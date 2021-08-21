@@ -1,11 +1,17 @@
 <template>
   <div>
-    <div class="founders-story tw-py-56">
+    <div class="founders-story tw-py-32 sm:tw-py-56">
       <div class="tw-max-w-screen-xl tw-mx-auto">
         <div class="tw-container tw-mx-auto">
           <div class="tw-text-center tw-p-4 tw-space-y-12">
-            <h1 class="tw-text-7xl">FOUNDER’S STORY</h1>
-            <p class="tw-text-4xl tw-text-blue-dark-lighten tw-leading-snug">
+            <h1 class="tw-text-4xl sm:tw-text-7xl">FOUNDER’S STORY</h1>
+            <p
+              class="
+                tw-text-lg
+                sm:tw-text-4xl
+                tw-text-blue-dark-lighten tw-leading-snug
+              "
+            >
               I started Uppercase in 2016 after watching the rise of social
               advertising first-hand while working at Facebook on their ad tech
               team. With a background in traditional advertising, 3 things
@@ -36,7 +42,7 @@
               highly-effective e-commerce websites that convert. We’re excited
               to continue to push the limits with our ecommerce partners.
             </p>
-            <pre class="tw-text-right tw-text-2xl">
+            <pre class="tw-text-right tw-text-sm sm:tw-text-2xl">
 - CASEY BROWN
 
 Co-founder, Uppercase Brands
@@ -49,7 +55,9 @@ Co-founder, Uppercase Brands
 </template>
 
 <script>
-export default {}
+export default {
+  layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
+}
 </script>
 
 <style lang="scss" scoped>
