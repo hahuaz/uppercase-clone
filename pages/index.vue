@@ -337,10 +337,6 @@ export default {
   layout: (ctx) => {
     return ctx.$device.isMobile ? 'mobile' : 'default'
   },
-  mounted() {
-    console.log(this)
-    console.log(this.$device)
-  },
 }
 </script>
 
